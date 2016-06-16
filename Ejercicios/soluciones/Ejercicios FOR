@@ -1,0 +1,50 @@
+1.
+n = int(input("Introduzca un numero: "))
+p = 1
+
+for i in range(1,2*n+1):
+    p=p*i
+
+print("El factorial del doble de n es: " + str(p))
+
+
+
+
+2.
+Str.isdigit() verifica si str contiene solo dígitos. Str debe ser una cadena, pero puede almacenar un valor numérico (ej: ‘123’.isdigit() es verdadero, ‘a’.isdigit() es falso, ‘1.2’.isdigit() es falso, ‘-2’.isdigit() es falso
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+n=input("Ingrese un numero: ")
+while n.isdigit() == False:
+	n = input("Ingrese un numero: ")
+	
+for i in range(1,int(n)+1):
+	print(i)
+
+
+
+
+3.
+
+Variante a
+
+n=input("Ingrese un numero: ")
+while n.isdigit() == False or int(n)<1:
+	n = input("Ingrese un numero: ")
+	
+for i in range(1,int(n)+1):
+	if i%3==0 or i%3==2:
+		print(i)
+
+Variante b
+
+n=input("Ingrese un numero: ")
+while n.isdigit() == False or int(n)<1:
+	n = input("Ingrese un numero: ")
+	
+for i in range(2,int(n)+1,3):
+	print(i)
+	
+for i in range(3,int(n)+1,3):
+	print(i)
+		
