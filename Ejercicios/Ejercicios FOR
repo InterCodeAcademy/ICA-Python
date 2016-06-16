@@ -1,0 +1,16 @@
+Problemas Básicos (se puede dejar de usar for, pero se recomienda usarlo igual)
+1.	El factorial de un número entero positivo n se define como el producto de todos los números enteros positivos menores o iguales a n. Por ejemplo, el factorial de 7 es 7x6x5x4x3x2x1. Imprimir el factorial de n*2 (el doble de n), donde n es un número introducido por el usuario.
+2.	El usuario introduce un número n. Repetir la solicitud si el número n no es entero positivo (validación). Cuando se introduzca, imprimir todos los enteros positivos menores o iguales a n.
+3.	El usuario introduce un número n. Repetir la solicitud si el número n no es entero positivo (validación). El programa debe imprimir todos los números que NO dejan resto 1 al dividir entre 3 mayores a 0 y no mayores a n. (ej: 3, 5, 6, 8, 9, etc.). Realizar las dos variantes
+  a.	Usando IF
+  b.	Sin usar IF
+  
+Problemas Intermedios
+4.	Imprimir todos los números mayores a 0 y menores a 1000 que NO son múltiplos de 2 o de 3 (ej: 5)
+5.	Calcular el menor número n tal que la suma de los primeros n enteros positivos es mayor o igual a 1000 (ej: 4 es el menor número n tal que la suma de los primeros n enteros positivos es mayor o igual a 10, ya que 1+2+3+4 = 10)
+6.	El usuario introduce un número n. Repetir la solicitud si el número n no es entero positivo (validación). El programa debe imprimir el valor de la siguiente suma: 1+1/2+1/4+1/8+1/16+…+1/(2^n). ¿A qué número se aproxima cuando se introduce valores más altos de n?
+
+Problemas Avanzados
+7.	Un número n es primo si sus divisores positivos son solamente 1 y n. (ej: 5 es primo). El usuario debe introducir un número entero positivo n, el programa debe validarlo y determinar si es primo. Si no es primo, imprimir en pantalla todos sus divisores positivos.
+8.	Calcule el valor de (2/1) * (2/3) * (4/3) * (4/5) * (6/5) * (6/7) * (8/7) * (8/9) * …….. * (1000/1001). Al resultado obtenido multiplíquelo por dos. ¿A qué número se parece?
+9.	Dos números a y b se dicen son coprimos si es que no tienen factores en común (ej: 10 y 21 son coprimos ya que 10 = 2 x 5 y 21 = 3 x 7). El usuario introduce un número entero positivo n (el programa debe validarlo). El programa debe imprimir en pantalla todos los enteros positivos coprimos con n menores a n. (Ej: si se introduce 10, el programa debe imprimir 1, 3, 7, 9)
